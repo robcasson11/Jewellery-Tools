@@ -1,7 +1,9 @@
 import "./App.css";
+import { sum } from "./convert";
 
 function App() {
-  return <h1>Hey</h1>;
+  const result = sum(5, 5);
+  return <h1>Hey the answer is {result}</h1>;
 }
 
 export default App;
