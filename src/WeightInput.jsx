@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import convert from "./convert";
+import convert from "./weightConverter";
 
 const WeightInput = ({ type, value, values, setValues }) => {
   return (
