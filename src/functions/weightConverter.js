@@ -1,6 +1,6 @@
-import conversions from "./data/weightConversionsData";
+import weightConversions from "../data/weightConversionsData";
 
-const convert = (type, number, values, setValues) => {
+const convertWeight = (type, number, values, setValues) => {
   //Type = meaterial, ie "Gold", Number = The weigth of that material that needs to be converted
 
   //Create a new object of all the materials who's values are to be returned
@@ -10,7 +10,9 @@ const convert = (type, number, values, setValues) => {
   newValues[type] = number;
 
   //Loop over the array of conversions from the data file to find the given "type"
-  for (const [otherType, multiplier] of Object.entries(conversions[type])) {
+  for (const [otherType, multiplier] of Object.entries(
+    weightConversions[type]
+  )) {
     //calculate the converted value and assign it to a variable "newAmount"
     const newAmount = number * multiplier;
     //update the state of the values object with the calculated values
@@ -19,4 +21,4 @@ const convert = (type, number, values, setValues) => {
   setValues(newValues);
 };
 
-export default convert;
+export default convertWeight;

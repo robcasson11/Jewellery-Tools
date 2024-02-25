@@ -1,4 +1,4 @@
-const conversions = {
+const weightConversions = {
   gold: {
     plat: 1.66,
     sil: 0.9,
@@ -21,4 +21,4 @@ const conversions = {
   },
 };
 
-export default conversions;
+export default weightConversions;

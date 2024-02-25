@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import convert from "./weightConverter";
+import convertWeight from "../functions/weightConverter";
 
 const WeightInput = ({ type, value, values, setValues }) => {
   return (
@@ -10,7 +10,7 @@ const WeightInput = ({ type, value, values, setValues }) => {
         title={type}
         value={value}
         onChange={(e) =>
-          convert(e.target.title, e.target.value, values, setValues)
+          convertWeight(e.target.title, e.target.value, values, setValues)
         }
       />
       <br />

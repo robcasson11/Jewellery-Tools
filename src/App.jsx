@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import WeightInput from "./WeightInput";
+import WeightInput from "./components/WeightInput";
 
 function App() {
   const [values, setValues] = useState({
