@@ -12,13 +12,12 @@ function App() {
     wax: "",
   });
 
-  const [sizeValues, setSizeValues] = useState();
+  const [sizeValues, setSizeValues] = useState("");
 
   const handleSizeConversion = (event) => {
     const value = event.target.value;
     const name = event.target.name;
     setSizeValues(sizeConverter(name, value));
-    console.log(event);
   };
 
   return (
@@ -45,6 +44,7 @@ function App() {
               <select
                 id={type.name}
                 name={type.name}
+                value={type.data[sizeValues]}
                 onChange={(e) => handleSizeConversion(e)}
               >
                 <option value={type.data[sizeValues]}>
