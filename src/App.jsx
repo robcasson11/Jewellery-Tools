@@ -1,7 +1,5 @@
 import "./App.css";
 import { Outlet, Link } from "react-router-dom";
-import WeightConverterView from "./features/weightConverterView";
-import SizeConverterView from "./features/sizeConverterView";
 
 function App() {
   return (

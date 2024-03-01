@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import sizeConversions from "../data/sizeConversionsData";
 import sizeConverter from "../functions/sizeConverter";
+import SizeOptions from "../components/SizeOptionsComponent";
 
 const SizeConverterView = () => {
   const [sizeValues, setSizeValues] = useState("");
@@ -29,13 +30,7 @@ const SizeConverterView = () => {
                 {type.data[sizeValues]}
               </option>
 
-              {type.data.map((value) => {
-                return (
-                  <option key={value} value={value}>
-                    {value}
-                  </option>
-                );
-              })}
+              <SizeOptions type={type.data} />
             </select>
             <br />
           </Fragment>

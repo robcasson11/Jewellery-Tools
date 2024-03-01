@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import WeightInput from "../components/WeightInput";
+import WeightInput from "../components/WeightInputComponent";
 
 const WeightConverterView = () => {
   const [weightValues, setWeightValues] = useState({
