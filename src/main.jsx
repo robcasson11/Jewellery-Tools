@@ -6,6 +6,8 @@ import SizeConverterView from "./features/sizeConverterView.jsx";
 import ErrorPage from "./features/errorView.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./scss/styles.scss";
+import * as bootstrap from "bootstrap";
 
 const router = createBrowserRouter([
   {
