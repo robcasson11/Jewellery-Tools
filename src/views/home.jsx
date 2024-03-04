@@ -16,7 +16,7 @@ const Home = () => {
       </p>
       <p>
         Trying to work out the circumference of a ring to help plan patterns or
-        or plot how many stones can be set?
+        plot how many stones can be set?
       </p>
       <br />
       <h4>

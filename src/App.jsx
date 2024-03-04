@@ -15,7 +15,6 @@ function App() {
                 className={`nav-link fw-bold py-1 px-0 ${
                   location.pathname === "/" ? "active" : null
                 }`}
-                aria-current="page"
               >
                 Home
               </Link>

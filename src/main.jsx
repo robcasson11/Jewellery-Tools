@@ -5,7 +5,6 @@ import Home from "./views/home.jsx";
 import WeightConverterView from "./views/weightConverterView.jsx";
 import SizeConverterView from "./views/sizeConverterView.jsx";
 import ErrorPage from "./views/errorView.jsx";
-import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./scss/styles.scss";
 
