@@ -2,7 +2,6 @@ import { Outlet, Link, useLocation } from "react-router-dom";
 
 function App() {
   const location = useLocation();
-  console.log(location);
   return (
     <main className="d-flex vh-100 text-center text-bg-dark">
       <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
