@@ -9,6 +9,10 @@ const WeightInput = ({ type, value, values, setValues }) => {
       <input
         title={type}
         value={value}
+        type="number"
+        className="mb-4 w-10 text-center"
+        //onWheel prevents this input value from being changed via the scroll wheel on a mouse
+        onWheel={(event) => event.currentTarget.blur()}
         onChange={(e) =>
           convertWeight(e.target.title, e.target.value, values, setValues)
         }

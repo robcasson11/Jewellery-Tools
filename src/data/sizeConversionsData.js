@@ -1,6 +1,6 @@
 const sizeConversions = [
   {
-    name: "circumference",
+    name: "Circumference",
     data: [
       "44.2",
       "44.8",
@@ -47,7 +47,7 @@ const sizeConversions = [
     ],
   },
   {
-    name: "diameter",
+    name: "Diameter",
     data: [
       "14.1",
       "14.3",

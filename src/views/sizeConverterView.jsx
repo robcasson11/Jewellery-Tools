@@ -14,7 +14,7 @@ const SizeConverterView = () => {
 
   return (
     <fieldset>
-      <legend>Pick your ring size</legend>
+      <legend className="mb-5">Pick your ring size</legend>
       {sizeConversions.map((type) => {
         return (
           <Fragment key={type.name}>
@@ -23,6 +23,7 @@ const SizeConverterView = () => {
             <select
               id={type.name}
               name={type.name}
+              className="mb-4"
               value={type.data[sizeValues]}
               onChange={(e) => handleSizeConversion(e)}
             >

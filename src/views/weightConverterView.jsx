@@ -11,7 +11,9 @@ const WeightConverterView = () => {
 
   return (
     <fieldset>
-      <legend>Type in your value to the relevant input.</legend>
+      <legend className="mb-5">
+        In grams, type the weight into the relevant input.
+      </legend>
       {Object.entries(weightValues).map(([type, value]) => (
         <WeightInput
           key={type}

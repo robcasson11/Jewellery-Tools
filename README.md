@@ -1,17 +1,11 @@
 # Jewellery Tools
 
-## Handy tools for the modern jeweller to help with common day to day tasks
+## Handy tools for the modern jeweller to help with common day to day conversions
 
 ## Weight Converter
 
-Use case...
-
-A customer would like a price to replicate their silver ring in platinum. Platinum is a heavier metal than silver and to work out the cost a weight conversion needs to take place. Once the weight has been converted we can determine the cost of the metal (platinum) needed to replicate the ring. 
-
-This converter takes any weight of any metal and displays the converted weight in all other metals available. A weight for "wax" is also included since building items (rings/models) in wax is a traditional technique still used.
+This tool is useful when a customer wants to know the price to replicate their silver ring in platinum. Since platinum is heavier than silver, a weight conversion calculation is necessary to determine the cost. Traditionally, this calculation is done using graphs and a calculator. However, this converter can take any weight of any metal and display the converted weight in all other metals available. It also includes a weight for "wax," which is a traditional technique still used to build items such as rings/models.
 
 ## Size Converter
 
-A customer has requested to have a ring commissioned with diamonds set all the way around. They have supplied their ring size as “6 ¾” which is the American ring sizing system. Our jeweller needs to convert the American size into the British size. Once the correct size has been determined our jeweller needs to find the diameter and circumference of the ring to work out how many diamonds are needed.
-
-This converter takes any type of measurement be it the size or diameter, in any form such as “British” or “European” and returns every other value in their corresponding input. 
+This tool comes in handy when a customer requests a ring to be commissioned with diamonds set all the way around. The customer has provided their ring size as "6 ¾", which is in the American ring sizing system. Our jeweller needs to convert the American size to the British size and determine the diameter and circumference of the ring to work out how many diamonds are required. This tool simplifies the process by taking any measurement type, such as "British", "European" or even a circumference, and returns every other value in their corresponding input.

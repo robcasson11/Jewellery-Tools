@@ -1,20 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import WeightConverterView from "./features/weightConverterView.jsx";
-import SizeConverterView from "./features/sizeConverterView.jsx";
-import ErrorPage from "./features/errorView.jsx";
+import Home from "./views/home.jsx";
+import WeightConverterView from "./views/weightConverterView.jsx";
+import SizeConverterView from "./views/sizeConverterView.jsx";
+import ErrorPage from "./views/errorView.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./scss/styles.scss";
-import * as bootstrap from "bootstrap";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <ErrorPage />,
+    // errorElement: <ErrorPage />,
     children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
       {
         path: "weightConverter",
         element: <WeightConverterView />,
@@ -22,6 +26,11 @@ const router = createBrowserRouter([
       {
         path: "sizeConverter",
         element: <SizeConverterView />,
+      },
+      //ErrorPage displayed as a catch all * route since adding it as an attribute to the parent (commented out above) lost the styling. Plus displaying the error page in the outlet looks better.
+      {
+        path: "*",
+        element: <ErrorPage />,
       },
     ],
   },
