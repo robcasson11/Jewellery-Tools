@@ -10,7 +10,7 @@ import "./scss/styles.scss";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/jewellery-tools/",
     element: <App />,
     // errorElement: <ErrorPage />,
     children: [
