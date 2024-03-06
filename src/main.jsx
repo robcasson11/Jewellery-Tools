@@ -10,12 +10,12 @@ import "./scss/styles.scss";
 
 const router = createBrowserRouter([
   {
-    path: "/jewellery-tools/",
+    path: "/",
     element: <App />,
     // errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "/jewellery-tools",
         element: <Home />,
       },
       {
