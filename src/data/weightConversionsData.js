@@ -4,12 +4,12 @@ const weightConversions = {
     sil: 0.9,
     wax: 0.071,
   },
-  plat: {
+  platinum: {
     gold: 0.6,
     sil: 0.48,
     wax: 0.049,
   },
-  sil: {
+  silver: {
     gold: 1.11,
     plat: 2.06,
     wax: 0.097,
