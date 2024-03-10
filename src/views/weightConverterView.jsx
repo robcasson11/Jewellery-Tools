@@ -4,8 +4,8 @@ import WeightInput from "../components/WeightInputComponent";
 const WeightConverterView = () => {
   const [weightValues, setWeightValues] = useState({
     gold: "",
-    plat: "",
-    sil: "",
+    platinum: "",
+    silver: "",
     wax: "",
   });
 
